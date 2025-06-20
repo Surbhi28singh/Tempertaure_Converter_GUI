@@ -57,9 +57,9 @@ combo_unit.set("Celsius")
 convert_btn = tk.Button(root, text="Convert", command=convert_temperature, font=("Helvetica", 12), bg="#4CAF50", fg="white")
 convert_btn.pack(pady=15)
 
-# Result display
+
 result_label = tk.Label(root, text="", font=("Helvetica", 12), bg="#f0f0f0", justify="center")
 result_label.pack()
 
-# Run the app
+
 root.mainloop()
